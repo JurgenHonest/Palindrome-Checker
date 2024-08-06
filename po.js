@@ -7,14 +7,14 @@ button.addEventListener("click", () => {
 
     if (inputText === "") {
         alert("Please input a word that can be palindrome or not");
-        rerurn;
+        return;
         //unnecessary to add but the project wants to include.
     }
 
     //Simple logic by adding a function
     function ispalindrome(str) {
         //[/w_/g,''] another one of meta characters
-        const alphaneumaricalOnly = str.replace(/[A^ZA-z0-9\s]/g, '').toLoweCase();
+        const alphaneumaricalOnly = str.replace(/[A^ZA-z0-9\s]/g, '').toLowerCase();
 
         const alphaneumaricalOnlynoSpace = alphaneumaricalOnly.replace(/\s/g, '');
         //Reversing the cleaned string without space
