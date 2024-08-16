@@ -1,0 +1,92 @@
+* {
+    background-color: black;
+    left: 500px;
+}
+
+:root {
+    --colorWhite: white;
+    --aliceblue: aliceblue;
+    --purple: purple;
+}
+
+img {
+    width: 300px;
+    padding: 10px;
+
+}
+
+main {
+    width: 80%;
+    vertical-align: middle;
+    background-color: black;
+    max-width: 500px;
+    color: var(--colorWhite);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20;
+    border: 2px solid var(--colorWhite);
+    top: 180px;
+    position: fixed;
+    box-shadow: 0 0 100px var(--colorWhite);
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+#word-input {
+    border: none;
+    border-bottom: 2px solid var(--purple);
+    background-color: var(--colorWhite);
+    margin: auto;
+    margin-top: 8px;
+    padding: 15px;
+}
+
+.result-hidden::before {
+    border: none;
+}
+
+.result-hidden::after {
+    color: var(--purple);
+    font-size: 30px;
+    border: 2px solid var(--purple);
+    background-color: var(--colorWhite);
+}
+
+
+#text-input {
+    color: var(--purple);
+    border: 1px solid var(--colorWhite);
+    background-color: var(--colorWhite);
+    text-align: center;
+    font-size: 28px;
+}
+
+.inline {
+    background-color: var(--colorWhite);
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#check-btn {
+    font-size: 20px;
+    background-color: var(--purple);
+    margin-left: 15px;
+    width: 100px;
+    color: var(--colorWhite);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#check-btn:hover {
+    background-color: brown;
+    font-size: 26px;
+}
+
+.palindrome-definition-div {
+
+    margin: 5px 0;
+
+}
