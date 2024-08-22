@@ -101,3 +101,30 @@ It is also a pseudo-class in CSS is used to apply styles to an element when a us
     font-size: 26px;
 }
 ```
+## Palindrome checker is JavaScript-based that interacts with HTML elements to verify if a word or phrase is a palindrome.
+
+### 1. HTML Elements Reference:
+input: Captures user input from an HTML element with the ID "word-input".
+button: Represents the button element with the ID "check-btn" that the user clicks to check if the input is a palindrome.
+result: Displays the result of the palindrome check in the HTML element with the ID "result".
+
+### 2. Event Listener:
+An event listener is attached to the button element, listening for a click event. When the button is clicked, the following steps occur:
+
+### 3. Empty Input Check:
+If the input field is empty, an alert is triggered, asking the user to "Write something".
+
+### 4. Palindrome Check Function:
+#### a. palindromeChecker(str): 
+This function checks whether the provided string str is a palindrome:
+#### b. Normalization: 
+The function removes any non-alphanumeric characters using a regular expression, converts the string to lowercase, and removes spaces.
+#### c. 
+Reverse Check: The normalized string is reversed, and the function checks if the reversed string matches the original normalized string.
+
+### 5. Display Result:
+Based on the result of the palindrome check, the result element's text is updated to inform the user whether the input is a palindrome or not.
+
+### Example Use:
+i. If the user enters "A man a plan a canal Panama" and clicks the button, the script will output: "A man a plan a canal Panama is a palindrome".
+ii. If the input is "hello", it will output: "hello is not a palindrome".
