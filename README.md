@@ -16,7 +16,8 @@ Embeds an image in a webpage. It requires the src attribute to specify the image
 ### input:-
 Creates an interactive form element that allows users to enter data. It can have various types, such as text, password, checkbox, radio, and more, defined by the type attribute.
 
-### h1:- Denotes the highest level of heading in an HTML document. It is used for the main title or heading, typically appearing at the top of a page or section.
+### h1:-
+Denotes the highest level of heading in an HTML document. It is used for the main title or heading, typically appearing at the top of a page or section.
 
 ### main:-
 Represents the main content of a webpage. It should contain content unique to the page and should not include repeated elements like sidebars or navigation links. It is crucial for accessibility and search engine optimization (SEO).
