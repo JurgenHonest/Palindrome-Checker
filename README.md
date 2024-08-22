@@ -3,7 +3,7 @@
 A palindrome checker is a tool or algorithm designed to determine whether a given word, phrase, or sequence reads the same forward and backward, ignoring spaces, punctuation, and capitalization. For example, "madam" and "racecar" are palindromes because they appear the same when reversed. 
 
 
-## Html Element that are being frequently used:
+## Html Elements that are being frequently used:
 ### div element:-
 A block-level container used to group other HTML elements together. It has no semantic meaning by default, but is often used for layout purposes or to apply styles to a section of content.
 
@@ -31,14 +31,11 @@ Sets the color of the text within an element.
 ```* 
     color: var(--purple);
 ```
-
-
 ### 2. Box Model
 box-sizing: Controls how the total width and height of an element is calculated (content-box, border-box).
 ```
 box-sizing: border-box;
 ```
-
 ### 3. background-color
 Defines the background color of an element.
 ```
@@ -119,8 +116,8 @@ If the input field is empty, an alert is triggered, asking the user to "Write so
 This function checks whether the provided string str is a palindrome:
 #### b. Normalization: 
 The function removes any non-alphanumeric characters using a regular expression, converts the string to lowercase, and removes spaces.
-#### c. 
-Reverse Check: The normalized string is reversed, and the function checks if the reversed string matches the original normalized string.
+#### c. Reverse Check:
+The normalized string is reversed, and the function checks if the reversed string matches the original normalized string.
 
 ### 5. Display Result:
 Based on the result of the palindrome check, the result element's text is updated to inform the user whether the input is a palindrome or not.
