@@ -3,7 +3,7 @@
 A palindrome checker is a tool or algorithm designed to determine whether a given word, phrase, or sequence reads the same forward and backward, ignoring spaces, punctuation, and capitalization. For example, "madam" and "racecar" are palindromes because they appear the same when reversed. 
 
 
-## Element that are being frequently used:
+## Html Element that are being frequently used:
 ### div element:-
 A block-level container used to group other HTML elements together. It has no semantic meaning by default, but is often used for layout purposes or to apply styles to a section of content.
 
