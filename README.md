@@ -1,4 +1,4 @@
-Palindrome Checker
+#Palindrome Checker
 A palindrome checker is a tool or algorithm designed to determine whether a given word, phrase, or sequence reads the same forward and backward, ignoring spaces, punctuation, and capitalization. For example, "madam" and "racecar" are palindromes because they appear the same when reversed. 
 
 
