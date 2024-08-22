@@ -28,13 +28,13 @@ Represents the main content of a webpage. It should contain content unique to th
 
 ### 1. color
 Sets the color of the text within an element.
-```* 
-    color: var(--purple);
+```
+   color: var(--purple);
 ```
 ### 2. Box Model
 box-sizing: Controls how the total width and height of an element is calculated (content-box, border-box).
 ```
-box-sizing: border-box;
+   box-sizing: border-box;
 ```
 ### 3. background-color
 Defines the background color of an element.
