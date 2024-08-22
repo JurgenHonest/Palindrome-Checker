@@ -22,27 +22,80 @@ Denotes the highest level of heading in an HTML document. It is used for the mai
 ### main:-
 Represents the main content of a webpage. It should contain content unique to the page and should not include repeated elements like sidebars or navigation links. It is crucial for accessibility and search engine optimization (SEO).
 
-### CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in HTML or XML. It allows developers to control the layout, color, font, and overall visual appearance of web pages.
+## CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in HTML or XML. It allows developers to control the layout, color, font, and overall visual appearance of web pages.
+
 ## Properties of CSS
-1. color
-Description: Sets the color of the text within an element.
-2. background-color
-Description: Defines the background color of an element.
-6. padding
-Description: Controls the space inside an element, between the content and its border.
-5. margin
-Description: Controls the space around an element, outside of its border.
-9. display
-Description: Specifies how an element is displayed on the page. Common values include block, inline, inline-block, and none.
-10. position
-Description: Controls the positioning method used for an element. Common values are static, relative, absolute, fixed, and sticky.
-12. flex and flexbox properties
-Description: A powerful layout system for arranging elements in a flexible way. Key properties include flex-direction, justify-content, align-items, and flex-wrap.
-13. grid and grid properties
-Description: A layout system for creating complex grid-based designs. Important properties include grid-template-columns, grid-template-rows, gap, and grid-area.
-15. z-index
-Description: Determines the stacking order of elements. Elements with a higher z-index appear in front of those with a lower z-index.
-17. box-shadow
-Description: Adds a shadow around an element's box.
-18. :root is a pseudo-class selector that targets the highest-level parent element in the document, typically the <html> element. It's commonly used to define global variables (known as CSS custom properties) that can be accessed throughout the entire stylesheet.
-19. :hover is also a pseudo-class in CSS is used to apply styles to an element when a user hovers over it with a pointing device, such as a mouse. This is a common way to create interactive effects on websites, making elements respond visually when users interact with them.
+
+### 1. color
+Sets the color of the text within an element.
+```* 
+    color: var(--purple);
+```
+
+
+### 2. Box Model
+box-sizing: Controls how the total width and height of an element is calculated (content-box, border-box).
+```
+box-sizing: border-box;
+```
+
+### 3. background-color
+Defines the background color of an element.
+```
+   background-color: var(--colorWhite);
+```
+### 4. padding
+Controls the space inside an element, between the content and its border.
+```
+   padding: 20px;
+```
+### 5. margin
+Controls the space around an element, outside of its border.
+```
+   margin: 0;
+```
+### 6. display
+Specifies how an element is displayed on the page. Common values include block, inline, inline-block, and none.
+```
+   display: flex;
+```
+### 7. position
+Controls the positioning method used for an element. Common values are static, relative, absolute, fixed, and sticky.
+```
+   position: fixed;
+```
+### 8. flex and flexbox properties
+A powerful layout system for arranging elements in a flexible way. Key properties include flex-direction, justify-content, align-items, and flex-wrap.
+```
+   display: inline-flex;
+```
+### 9. grid and grid properties
+A layout system for creating complex grid-based designs. Important properties include grid-template-columns, grid-template-rows, gap, and grid-area.
+```
+   grid-column-template: (4, 1fr);
+```
+### 10. z-index
+Determines the stacking order of elements. Elements with a higher z-index appear in front of those with a lower z-index.
+```
+   z-index: 1;
+```
+### 11. box-shadow
+Adds a shadow around an element's box.
+```
+   box-shadow: 0 0 100px var(--colorWhite);
+```
+### 12. :root is a pseudo-class selector that targets the highest-level parent element in the document, typically the <html> element. It's commonly used to define global variables (known as CSS custom properties) that can be accessed throughout the entire stylesheet.
+```
+   :root {
+    --colorWhite: white;
+    --aliceblue: aliceblue;
+    --purple: purple;
+}
+```
+### 13. :hover is also a pseudo-class in CSS is used to apply styles to an element when a user hovers over it with a pointing device, such as a mouse. This is a common way to create interactive effects on websites, making elements respond visually when users interact with them.
+```
+   #check-btn:hover {
+    background-color: brown;
+    font-size: 26px;
+}
+```
