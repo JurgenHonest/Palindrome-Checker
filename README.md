@@ -84,7 +84,8 @@ Adds a shadow around an element's box.
 ```
    box-shadow: 0 0 100px var(--colorWhite);
 ```
-### 12. :root is a pseudo-class selector that targets the highest-level parent element in the document, typically the <html> element. It's commonly used to define global variables (known as CSS custom properties) that can be accessed throughout the entire stylesheet.
+### 12. :root 
+It is a pseudo-class selector that targets the highest-level parent element in the document, typically the <html> element. It's commonly used to define global variables (known as CSS custom properties) that can be accessed throughout the entire stylesheet.
 ```
    :root {
     --colorWhite: white;
@@ -92,7 +93,8 @@ Adds a shadow around an element's box.
     --purple: purple;
 }
 ```
-### 13. :hover is also a pseudo-class in CSS is used to apply styles to an element when a user hovers over it with a pointing device, such as a mouse. This is a common way to create interactive effects on websites, making elements respond visually when users interact with them.
+### 13. :hover
+It is also a pseudo-class in CSS is used to apply styles to an element when a user hovers over it with a pointing device, such as a mouse. This is a common way to create interactive effects on websites, making elements respond visually when users interact with them.
 ```
    #check-btn:hover {
     background-color: brown;
